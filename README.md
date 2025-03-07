@@ -17,11 +17,11 @@ The model was fine-tuned using SKU-110K, a dataset containing 110,000 images of 
 - Clustering: HDBSCAN was applied to group similar products, assigning unique colors for differentiation.
 
 ## Key Findings
-High-quality images improve accuracy, while cluttered shelves pose challenges.
-Simple product designs are easier to recognize than those with intricate details.
-Combining multiple feature extractors improved product grouping, but fine-tuning is needed for better separation.
+- High-quality images improve accuracy, while cluttered shelves pose challenges.
+- Simple product designs are easier to recognize than those with intricate details.
+- Combining multiple feature extractors improved product grouping, but fine-tuning is needed for better separation.
 
 ## Limitations and Improvements
-Lack of labeled data prevents full model fine-tuning.
-Clustering precision can be improved with contrastive learning.
-Next Steps: Implement self-supervised learning to enhance embeddings and develop a user-friendly dashboard for suppliers to upload images and receive insights.
+- Lack of labeled data prevents full model fine-tuning.
+- Clustering precision can be improved with contrastive learning.
+- Next Steps: Implement self-supervised learning to enhance embeddings and develop a user-friendly dashboard for suppliers to upload images and receive insights.
